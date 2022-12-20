@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# MOBX State Management - React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This is a simple app for demonstrating React MOBX state management.
 
 ## Available Scripts
 
