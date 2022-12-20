@@ -5,8 +5,8 @@ const Counter = observer(({ state }) => {
         <>
             <h1>{state.count}</h1>
             <div>
-                <button onClick={() => state.decrementCount()}>- decrement</button>
-                <button onClick={() => state.incrementCount()}>increment +</button>
+                <button onClick={() => state.decrementCount(1)}>- decrement</button>
+                <button onClick={() => state.incrementCount(1)}>increment +</button>
             </div>
         </>
     )

@@ -7,11 +7,11 @@ export class State {
         makeAutoObservable(this)
     }
 
-    incrementCount(){
-        this.count += 1
+    incrementCount(num){
+        this.count += num
     }
 
-    decrementCount(){
-        this.count -= 1
+    decrementCount(num){
+        this.count -= num
     }
 }
