@@ -12,3 +12,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: #61dafb;
+  font-weight: bold;
+  padding: 1em 1.5em;
+  font-size: .5em;
+  border-radius: 5px;
+}
+
+button+button {
+  margin-left: 1em;
+}
+
+h1 {
+  font-size: 4em;
+}
