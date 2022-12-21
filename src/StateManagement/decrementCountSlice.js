@@ -1,6 +1,6 @@
-const decrementCountSlice = (state, num) => {
-    state.count -= num
-    return state
+const decrementCountSlice = (store, num) => {
+    store.count -= num
+    return store
 }
 
 export { decrementCountSlice }

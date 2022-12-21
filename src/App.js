@@ -1,14 +1,14 @@
 import './App.css';
 import Counter from './Components/Counter';
-import { State } from './StateManagement';
+import { Store } from './StateManagement';
 
-const state = new State()
+const store = new Store()
 
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter state={state} />
+        <Counter store={store} />
       </header>
     </div>
   );

@@ -2,8 +2,8 @@ import { makeAutoObservable } from "mobx"
 import { decrementCountSlice } from "./decrementCountSlice"
 import { incrementCountSlice } from "./incrementCountSlice"
 
-export class State {
-    state = {
+export class Store {
+    store = {
         count: 0,
     }
 
@@ -12,11 +12,11 @@ export class State {
     }
     
     incrementCount(num) {
-        incrementCountSlice(this.state, num)
+        incrementCountSlice(this.store, num)
     }
     
     decrementCount(num) {
-        decrementCountSlice(this.state, num)
+        decrementCountSlice(this.store, num)
     }
 
 }

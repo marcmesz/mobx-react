@@ -1,6 +1,6 @@
-const incrementCountSlice = (state, num) => {
-    state.count += num
-    return state
+const incrementCountSlice = (store, num) => {
+    store.count += num
+    return store
 }
 
 export { incrementCountSlice }
