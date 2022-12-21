@@ -1,6 +1,6 @@
 import './App.css';
 import Counter from './Components/Counter';
-import { store } from './StateManagement';
+import { store } from './Store';
 
 const App = () => {
   return (
