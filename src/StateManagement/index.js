@@ -2,7 +2,7 @@ import { makeAutoObservable } from "mobx"
 import { decrementCountSlice } from "./decrementCountSlice"
 import { incrementCountSlice } from "./incrementCountSlice"
 
-export class Store {
+class Store {
     store = {
         count: 0,
     }
@@ -20,3 +20,5 @@ export class Store {
     }
 
 }
+
+export const store = new Store()
