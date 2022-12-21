@@ -1,8 +1,6 @@
-# MOBX State Management - React App
+# MOBX State Management - React Counter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-This is a simple app for demonstrating React MOBX state management.
+This is a simple counter app for demonstrating React MOBX state management.
 
 ## Available Scripts
 
