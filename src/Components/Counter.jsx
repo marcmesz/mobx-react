@@ -1,6 +1,10 @@
 import { observer } from "mobx-react-lite"
 
 const Counter = observer(({ store }) => {
+
+    const state = Object.assign({}, store.store)
+    console.log(state)
+
     return (
         <>
             <h1>{store.store.count}</h1>
